@@ -11,6 +11,10 @@ public class UIController : MonoBehaviour
     public TextMeshProUGUI overheatedMessage;
     public Slider weaponTempSlider;
 
+    public GameObject deathScreen;
+    public TextMeshProUGUI deathText;
+
+    public Slider healthSlider;
     private void Awake()
     {
         instance = this;
